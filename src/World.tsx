@@ -1,5 +1,6 @@
 import { HDKComponent, HNode, Prefab, render, InfoPanel } from '@hiber3d/hdk-react';
 import { Ground, Spawnpoint } from '@hiber3d/hdk-react-components';
+import { Foliages } from './components/Foliages';
 
 const Sign: HDKComponent<{ header: string; body: string; url: string }> = ({ ...props }) => (
   <InfoPanel {...props} openUrlInNewTab>
@@ -9,6 +10,7 @@ const Sign: HDKComponent<{ header: string; body: string; url: string }> = ({ ...
 
 const World = () => (
     <HNode>
+      <Foliages />
       <Ground />
       <Spawnpoint />
       <Sign
