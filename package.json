@@ -1,0 +1,18 @@
+{
+  "name": "dominion",
+  "version": "0.0.173",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "hdk dev --open",
+    "upload": "hdk upload",
+    "update": "npx update-by-score \"@hiber3d\""
+  },
+  "dependencies": {
+    "@hiber3d/hdk-cli": "^1.1.20",
+    "@hiber3d/hdk-core": "^1.0.15",
+    "@hiber3d/hdk-react": "^1.1.13",
+    "@hiber3d/hdk-react-components": "^1.1.4",
+    "@hiber3d/hdk-utils": "^1.0.15"
+  }
+}
