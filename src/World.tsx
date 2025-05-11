@@ -14,9 +14,9 @@ const World = () => (
       <Ground />
       <Spawnpoint />
       <Sign
-        header="Welcome to Hiber3D HDK!"
-        body="This is The Getting Started world. Press O to learn how to build something!"
-        url="https://developer.hiber3d.com/docs/getting-started/fundamentals"
+        header="Welcome to zealicon !"
+        body=""
+        url="zealicon2025.in"
         z={3}
       />
     </HNode>
