@@ -11,4 +11,4 @@ const App = () => {
   )
 }
 
-render(<App/>, { environment: 'sunrise_01' });
+render(<App/>, { environment: 'midday_clear_01' });
