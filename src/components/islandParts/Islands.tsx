@@ -18,7 +18,9 @@ export function Islands() {
     //   }}
     // />
     <HNode>
-      <Prefab x={100} z={80} y={-30} id="terrain_island_03"/>
+      <Prefab x={100} z={80} y={-65} scale={2} id="terrain_island_03"/>
+      {/* <Prefab x={-10} y={-5} z={30} rotY={180} scale={8} id="cliff_02_03"/> */}
+      <Prefab id="rock_01_t1"/>
     </HNode>
   );
 }
