@@ -4,7 +4,7 @@ import {Spawnpoint} from '@hiber3d/hdk-react-components';
 const EntryPoint = () => {
     return(
         <HNode>
-            <Spawnpoint x={40} y={5}/>
+            <Spawnpoint x={40} y={10}/>
         </HNode>
     )
 }
